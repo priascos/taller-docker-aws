@@ -1,0 +1,261 @@
+		.desabilitado{
+			fill:black;
+			stroke:black;
+			stroke-width:1px;
+			opacity: 0.3;
+		}
+		.marcadoAzul
+		{
+		  fill:none;
+			stroke:blue;
+			stroke-width:7px;
+		}
+		.marcadoVerde
+		{
+		 fill:green;
+			stroke:black;
+			stroke-width:1px;
+		}
+		.marcadoMorado
+		{
+			fill:#CC66CC;
+			stroke:black;
+			stroke-width:1px;
+		}
+		.marcadoMarron{
+			fill:#CC6600;
+			stroke:black;
+			stroke-width:1px;
+		}
+		.marcadoAmarillo{
+			fill : #fb0000;
+			stroke:black;
+			stroke-width:1px;
+		}
+		.marcadoRojo{
+			fill:#7200fb;
+			stroke:black;
+			stroke-width:1px;
+		}
+		.marcadoNaranja{
+			fill:#00ddfb;
+			stroke:black;
+			stroke-width:1px;
+		}
+		.marcadoTomate{
+			 fill:none;
+			stroke:blue;
+			stroke-width:5px;
+		}
+                .marcadocaries_no_cavitacional{
+                        fill:#ff9cfc;
+			stroke:black;
+			stroke-width:1px;
+                }
+                 .marcadoamalgama_Desadactada{
+                        fill:#6b4343;
+			stroke:black;
+			stroke-width:1px;
+                }
+                .marcadoresina_Desadactada{
+                        fill:#1e7855;
+			stroke:black;
+			stroke-width:1px;
+                }
+                .marcadofluorosis{
+                        fill:#fbd827;
+			stroke:black;
+			stroke-width:1px;
+                }
+                .marcadoOsturacion{
+                    fill:#2757fb;
+			stroke:black;
+			stroke-width:1px;
+                }
+                .marcadoporSellar{
+                      fill:none;
+			stroke:#5dde60;
+			stroke-width:7px;
+                }
+                .marcadoincrustacion{
+                        fill:none;
+			stroke:#2757fb;
+			stroke-width:3px;
+                    
+                }
+                .marcadoporSellado{
+                      fill:none;
+			stroke:#bbf106;
+			stroke-width:7px;
+                }
+                
+                .marcadopRealizar{
+			 fill:none;
+			stroke:#fb0000;
+			stroke-width:7px;
+		}
+                .marcadoFija{
+                      fill:none;
+			stroke:blue;
+			stroke-width:3px;
+                }
+                .marcadosinerupcionar{
+                      fill:none;
+			stroke:blue;
+			stroke-width:4px;
+                }
+                .marcadoerupcionando{
+                      fill:none;
+			stroke:blue;
+			stroke-width:4px;
+                }
+                .marcadoprotecisRemovible{
+                      fill:none;
+			stroke:#4afb27;
+			stroke-width:5px;
+                }
+               
+                .marcadoFractura_dental{
+                        fill: #f3a5cd;
+			stroke:black;
+			stroke-width:1px;
+                }
+                .marcadoexodoncia_simple{
+                         fill:none;
+			stroke:red;
+			stroke-width:5px;
+                    
+                }
+                .marcadoexodoncia_quirurjica{
+                         fill:none;
+			stroke:red;
+			stroke-width:5px;
+                    
+                }
+                .marcadoRetracción_gingival{
+                       
+                        fill:#fd0086;
+			stroke:black;
+			stroke-width:1px;
+                    
+                }
+                .marcadoNucleo
+		{
+			fill:none;
+			stroke:gray;
+			stroke-width:7px;
+		}
+                .marcadocoronadesadactada{
+                        fill:blue;
+			stroke:#a50000;
+			stroke-width:7px;
+                    
+                }
+		.diente{
+			fill-opacity:0;
+			stroke:black;
+			stroke-width:1px;
+		}
+                .diente_oleary{
+			fill-opacity:0;
+			stroke:black;
+			stroke-width:1px;
+		}
+		.ausente
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .sinerupcionar{
+                    fill:none;
+			opacity: 0;
+                }
+                .fija
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .erupcionando
+		{
+			fill:none;
+			opacity: 0;
+		}
+                 .fractura_dental
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .exodoncia_simple
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .exodoncia_quirurjica
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .retracción_gingival
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .ausente_oleary
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .nucleo
+		{
+			fill:none;
+			opacity: 0;
+		}
+		.corona
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .sano
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .marcadoSano{
+			fill:#08fc86;
+			stroke:black;
+			stroke-width:1px;
+		}
+                .coronadesadactada
+		{
+			fill:none;
+			opacity: 0;
+		}
+                .sellado{
+                    fill:none;
+			opacity: 0;
+                }
+                .incrustacion{
+                    fill:none;
+		    opacity: 0;
+                }
+                .porsellar{
+                    fill:none;
+			opacity: 0;
+                }
+                .endodonciaxr
+		{
+			fill:none;
+			opacity: 0;
+		}
+              
+		.endodoncia
+		{
+			fill:none;
+			opacity: 0;
+		}
+
+		.implante
+		{
+			fill:none;
+			opacity: 0;
+		}

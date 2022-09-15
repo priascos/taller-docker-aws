@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* line 3, ../sass/offline-language-spanish-indicator.sass */
+.offline-ui.offline-ui-up .offline-ui-content:before {
+  content: "En línea | Su conexión a internet ha vuelto a la normalidad.";
+}
+/* line 6, ../sass/offline-language-spanish-indicator.sass */
+.offline-ui.offline-ui-down .offline-ui-content:before {
+  content: "No hay conexión a internet, para solucionar este problema pongase en contacto con su ISP(Proveedor de servicios de internet, como UNE , Claro, etc.). Podra continuar con lo que estába haciendo una vez regrese el internet | Esperando conexión ...";
+}

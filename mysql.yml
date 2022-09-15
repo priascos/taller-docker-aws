@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:5.6
+    container_name: docker-mysql
+    restart: always
+    command: mysqld --sql_mode="" --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+    ports:
+      - "3306:3306"
+    networks:
+      mysql57:
+        ipv4_address: 172.18.0.2
+
+networks:
+  mysql57:
+    external: true
+    

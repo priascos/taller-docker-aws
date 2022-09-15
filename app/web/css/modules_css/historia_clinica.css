@@ -1,0 +1,82 @@
+/* 
+    Created on : 28/03/2018, 08:33:52 AM
+    Author     : Carlos Delgado <dev@ourcodeworld.com>
+*/
+.contbody {
+  width: 80%;
+  padding: unset; }
+
+#main-tabs-switcher {
+  margin-top: 10px; }
+
+.left-sidebar-label {
+  font-size: 1.6em;
+  display: inline-block;
+  font-family: helvetica, arial, serif;
+  vertical-align: middle; }
+
+.left-sidebar-title {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block; }
+
+#consulta-main-container .bhoechie-tab-container {
+  background-color: #ffffff;
+  padding: 0 !important;
+  margin-left: 10px;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  background-clip: padding-box;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+#consulta-main-container .bhoechie-tab-menu {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0; }
+#consulta-main-container .bhoechie-tab-menu div.list-group {
+  margin-bottom: 0; }
+#consulta-main-container .bhoechie-tab-menu div.list-group > a {
+  margin-bottom: 0; }
+#consulta-main-container .bhoechie-tab-menu div.list-group > a .glyphicon,
+#consulta-main-container .bhoechie-tab-menu div.list-group > a .fa,
+#consulta-main-container .bhoechie-tab-menu div.list-group > a .icon-i-administration {
+  color: #158cba; }
+#consulta-main-container .bhoechie-tab-menu div.list-group > a:first-child {
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0; }
+#consulta-main-container .bhoechie-tab-menu div.list-group > a:last-child {
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0; }
+#consulta-main-container .bhoechie-tab-menu div.list-group > a.active,
+#consulta-main-container .bhoechie-tab-menu div.list-group > a.active .glyphicon,
+#consulta-main-container .bhoechie-tab-menu div.list-group > a.active .fa,
+#consulta-main-container .bhoechie-tab-menu div.list-group > a.active .icon-i-administration {
+  background-color: #158cba;
+  background-image: #158cba;
+  color: #ffffff; }
+#consulta-main-container .bhoechie-tab-menu div.list-group > a.active:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #158cba; }
+#consulta-main-container .bhoechie-tab-content {
+  background-color: #ffffff;
+  padding-top: 10px; }
+#consulta-main-container .bhoechie-tab div.bhoechie-tab-content:not(.active) {
+  display: none; }
+
+.sub-menu {
+  margin-top: 5px;
+  margin-left: 10px; }
+
+@media (max-width: 990px) {
+  .contbody {
+    width: 100%; } }
+
+/*# sourceMappingURL=historia_clinica.css.map */

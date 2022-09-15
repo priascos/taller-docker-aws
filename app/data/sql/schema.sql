@@ -1,0 +1,1 @@
+CREATE TABLE archivos (id INT, fecha DATETIME, nombre VARCHAR(255), archivo VARCHAR(255), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;

@@ -1,0 +1,9 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  aws_region: us-east-1
+  aws_version: latest
+  aws_key: AKIASF5XSWKREP56QKEZ
+  aws_secret: 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

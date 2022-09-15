@@ -1,0 +1,1110 @@
+Sep 14 04:30:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 14 04:30:39 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/html/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot send session cookie - headers already sent by (output started at /var/www/html/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Sep 14 04:30:39 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/html/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Sep 14 04:30:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 04:30:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 04:30:39 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 14 04:30:39 symfony [info] {sfPHPView} Render "/var/www/html/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 14 04:30:39 symfony [info] {sfPHPView} Decorate content with "/var/www/html/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 14 04:30:39 symfony [info] {sfPHPView} Render "/var/www/html/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 14 04:30:39 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/html/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/html/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Sep 14 04:30:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 04:30:39 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/html/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/html/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Sep 14 04:30:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 04:30:39 symfony [info] {sfWebDebugLogger} Configuration 773.72 ms (9)
+Sep 14 04:30:39 symfony [info] {sfWebDebugLogger} Factories 685.91 ms (1)
+Sep 14 04:30:39 symfony [info] {sfWebDebugLogger} Action "default/index" 0.40 ms (1)
+Sep 14 04:30:39 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 173.20 ms (1)
+Sep 14 04:30:39 symfony [info] {sfWebResponse} Send content (29746 o)
+Sep 14 12:15:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 14 12:15:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:15:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:15:27 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 14 12:15:28 symfony [info] {sfPHPView} Render "/var/www/apps/app/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 14 12:15:28 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 14 12:15:28 symfony [info] {sfPHPView} Render "/var/www/apps/app/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 14 12:15:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:15:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:15:28 symfony [info] {sfWebDebugLogger} Configuration 880.08 ms (9)
+Sep 14 12:15:28 symfony [info] {sfWebDebugLogger} Factories 700.41 ms (1)
+Sep 14 12:15:28 symfony [info] {sfWebDebugLogger} Action "default/index" 0.33 ms (1)
+Sep 14 12:15:28 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 178.79 ms (1)
+Sep 14 12:15:28 symfony [info] {sfWebResponse} Send content (29037 o)
+Sep 14 12:15:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:15:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:15:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:15:36 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:15:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:15:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:15:37 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:27:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:27:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:27:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:27:22 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:27:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:27:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:27:22 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:27:22 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:27:22 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:27:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:27:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:27:22 symfony [info] {sfWebDebugLogger} Configuration 148.47 ms (9)
+Sep 14 12:27:22 symfony [info] {sfWebDebugLogger} Factories 337.92 ms (1)
+Sep 14 12:27:22 symfony [info] {sfWebDebugLogger} Action "archivos/index" 243.09 ms (1)
+Sep 14 12:27:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.45 ms (2)
+Sep 14 12:27:22 symfony [info] {sfWebDebugLogger} View "Success" for "archivos/index" 150.00 ms (1)
+Sep 14 12:27:22 symfony [info] {sfWebResponse} Send content (30521 o)
+Sep 14 12:34:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:34:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:34:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:34:28 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:34:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:34:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:34:28 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:34:28 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:34:28 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:34:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:34:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:34:28 symfony [info] {sfWebResponse} Send content (720 o)
+Sep 14 12:35:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:35:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:35:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:35:14 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:35:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:35:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:35:14 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:35:14 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:35:14 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:35:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:35:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:35:14 symfony [info] {sfWebResponse} Send content (2326 o)
+Sep 14 12:40:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:40:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:40:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:40:58 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:40:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:40:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:40:58 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:40:58 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:40:58 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:44:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:44:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:44:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:44:16 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:44:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:44:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:44:16 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:44:16 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:44:16 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:44:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:44:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:44:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:44:28 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:44:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:44:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:44:29 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:44:29 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:44:29 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:44:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:44:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:44:29 symfony [info] {sfWebResponse} Send content (719 o)
+Sep 14 12:45:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:45:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:45:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:45:45 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:45:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:45:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:45:46 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:45:46 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:45:46 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:45:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:45:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:45:46 symfony [info] {sfWebResponse} Send content (719 o)
+Sep 14 12:48:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:48:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:48:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:48:12 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:48:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:48:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:48:13 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:48:13 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:48:13 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:48:13 symfony [err] {sfException} Call to undefined method myUser::getGuardUser.
+Sep 14 12:48:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 12:48:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:49:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:49:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:49:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:49:28 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:49:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:49:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:49:28 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:49:29 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:49:29 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:49:29 symfony [err] {sfException} Call to undefined method myUser::getGuardUser.
+Sep 14 12:49:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 12:49:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:49:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:49:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:49:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:49:33 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:49:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:49:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:49:33 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:49:33 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:49:33 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:49:33 symfony [err] {sfException} Call to undefined method myUser::getGuardUser.
+Sep 14 12:49:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 12:49:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:49:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:49:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:49:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:49:53 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:49:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:49:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:49:53 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:49:53 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:49:53 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:49:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:49:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:49:53 symfony [info] {sfWebResponse} Send content (4896 o)
+Sep 14 12:51:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 12:51:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:51:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:51:12 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 12:51:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 12:51:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 12:51:12 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 12:51:12 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:51:12 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:51:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:51:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:51:12 symfony [info] {sfWebResponse} Send content (5122 o)
+Sep 14 12:54:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/new with parameters array (  'module' => 'archivos',  'action' => 'new',)
+Sep 14 12:54:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:54:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:54:38 symfony [info] {archivosActions} Call "archivosActions->executeNew()"
+Sep 14 12:54:38 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/newSuccess.php"
+Sep 14 12:54:38 symfony [info] {sfPartialView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/_form.php"
+Sep 14 12:54:38 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:54:38 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:54:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:54:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:54:38 symfony [info] {sfWebResponse} Send content (10677 o)
+Sep 14 12:55:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/new with parameters array (  'module' => 'archivos',  'action' => 'new',)
+Sep 14 12:55:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:55:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:55:12 symfony [info] {archivosActions} Call "archivosActions->executeNew()"
+Sep 14 12:55:12 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/newSuccess.php"
+Sep 14 12:55:12 symfony [info] {sfPartialView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/_form.php"
+Sep 14 12:55:12 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:55:12 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:55:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:55:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:55:12 symfony [info] {sfWebResponse} Send content (10677 o)
+Sep 14 12:55:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/new with parameters array (  'module' => 'archivos',  'action' => 'new',)
+Sep 14 12:55:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:55:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:55:27 symfony [info] {archivosActions} Call "archivosActions->executeNew()"
+Sep 14 12:55:27 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/newSuccess.php"
+Sep 14 12:55:27 symfony [info] {sfPartialView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/_form.php"
+Sep 14 12:55:27 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:55:27 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:55:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:55:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:55:27 symfony [info] {sfWebResponse} Send content (10677 o)
+Sep 14 12:57:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/new with parameters array (  'module' => 'archivos',  'action' => 'new',)
+Sep 14 12:57:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 12:57:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 12:57:27 symfony [info] {archivosActions} Call "archivosActions->executeNew()"
+Sep 14 12:57:27 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/newSuccess.php"
+Sep 14 12:57:27 symfony [info] {sfPartialView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/_form.php"
+Sep 14 12:57:27 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:57:27 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 12:57:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 12:57:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 12:57:27 symfony [info] {sfWebResponse} Send content (10738 o)
+Sep 14 18:25:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /public function executeProcessarchivosconsultaFormAjax(sfWebRequest $request) { $form = new ArchivosConsultaForm(); $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName())); if ($form->isValid()) { $paciente = $form->save(); / Set the response format to json $this->getResponse()->setHttpHeader('Content-type','application/json'); / Use renderText to return a json encoded array ! return $this->renderText(json_encode(array( "success" => true ))); } } with parameters array (  'module' => 'public function executeProcessarchivosconsultaFormAjax(sfWebRequest $request) { $form = new ArchivosConsultaForm(); $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName())); if ($form->isValid()) { $paciente = $form->save(); ',  'action' => ' Set the response format to json $this->getResponse()->setHttpHeader(\'Content-type\',\'application',  'json\'); ' => ' Use renderText to return a json encoded array ! return $this->renderText(json_encode(array( "success" => true ))); } }',)
+Sep 14 18:25:48 symfony [info] {sfFrontWebController} Action "publicfunctionexecuteProcessarchivosconsultaFormAjaxsfWebRequestrequestformnewArchivosConsultaFormformbindrequestgetParameterformgetNamerequestgetFilesformgetNameifformisValidpacienteformsave/SettheresponseformattojsonthisgetResponsesetHttpHeaderContenttypeapplication" does not exist
+Sep 14 18:25:48 symfony [err] {sfError404Exception} Action "publicfunctionexecuteProcessarchivosconsultaFormAjaxsfWebRequestrequestformnewArchivosConsultaFormformbindrequestgetParameterformgetNamerequestgetFilesformgetNameifformisValidpacienteformsave/SettheresponseformattojsonthisgetResponsesetHttpHeaderContenttypeapplication" does not exist.
+Sep 14 18:25:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 14 18:25:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 18:25:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:25:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:25:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:25:56 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:25:57 symfony [err] {Doctrine_Exception} Couldn't find class p
+Sep 14 18:25:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 18:25:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 18:26:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:26:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:26:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:26:36 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:26:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:26:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:27:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:27:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:27:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:27:11 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:27:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:27:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:27:12 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 18:27:12 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 18:27:12 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 18:27:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 18:27:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 18:27:12 symfony [info] {sfWebResponse} Send content (12549 o)
+Sep 14 18:30:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:30:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:30:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:30:13 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:30:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:30:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:30:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:30:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:30:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:30:33 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:30:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:30:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:37:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:37:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:37:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:37:04 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:37:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:37:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:39:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:39:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:39:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:39:04 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:39:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:39:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:39:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:39:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:39:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:39:30 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:39:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:39:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:40:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:40:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:40:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:40:08 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:40:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:40:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:40:08 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "archivo1" on "Archivos"
+Sep 14 18:40:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 18:40:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 18:41:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:41:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:41:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:41:33 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:41:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:41:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:41:34 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 18:41:34 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 18:41:34 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 18:41:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 18:41:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 18:41:34 symfony [info] {sfWebResponse} Send content (9588 o)
+Sep 14 18:41:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/createArchivos with parameters array (  'module' => 'archivos',  'action' => 'createArchivos',)
+Sep 14 18:41:50 symfony [info] {sfFrontWebController} Action "archivos/createArchivos" does not exist
+Sep 14 18:41:50 symfony [err] {sfError404Exception} Action "archivos/createArchivos" does not exist.
+Sep 14 18:41:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 14 18:41:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 18:47:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 18:47:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 18:47:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 18:47:19 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 18:47:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 18:47:19 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 18:47:20 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 18:47:20 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 18:47:20 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 18:47:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 18:47:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 18:47:20 symfony [info] {sfWebResponse} Send content (9588 o)
+Sep 14 18:47:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /public function executeProcessarchivosconsultaFormAjax(sfWebRequest $request) { $form = new ArchivosConsultaForm(); $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName())); if ($form->isValid()) { $paciente = $form->save(); / Set the response format to json $this->getResponse()->setHttpHeader('Content-type','application/json'); / Use renderText to return a json encoded array ! return $this->renderText(json_encode(array( "success" => true ))); } } with parameters array (  'module' => 'public function executeProcessarchivosconsultaFormAjax(sfWebRequest $request) { $form = new ArchivosConsultaForm(); $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName())); if ($form->isValid()) { $paciente = $form->save(); ',  'action' => ' Set the response format to json $this->getResponse()->setHttpHeader(\'Content-type\',\'application',  'json\'); ' => ' Use renderText to return a json encoded array ! return $this->renderText(json_encode(array( "success" => true ))); } }',)
+Sep 14 18:47:22 symfony [info] {sfFrontWebController} Action "publicfunctionexecuteProcessarchivosconsultaFormAjaxsfWebRequestrequestformnewArchivosConsultaFormformbindrequestgetParameterformgetNamerequestgetFilesformgetNameifformisValidpacienteformsave/SettheresponseformattojsonthisgetResponsesetHttpHeaderContenttypeapplication" does not exist
+Sep 14 18:47:22 symfony [err] {sfError404Exception} Action "publicfunctionexecuteProcessarchivosconsultaFormAjaxsfWebRequestrequestformnewArchivosConsultaFormformbindrequestgetParameterformgetNamerequestgetFilesformgetNameifformisValidpacienteformsave/SettheresponseformattojsonthisgetResponsesetHttpHeaderContenttypeapplication" does not exist.
+Sep 14 18:47:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 14 18:47:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:11:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 22:11:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:11:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:11:59 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 22:11:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:11:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 22:11:59 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 22:11:59 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "descripcion" on "Archivos"
+Sep 14 22:11:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 22:11:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:12:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 22:12:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:12:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:12:30 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 22:12:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:12:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 22:12:30 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 22:12:31 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 22:12:31 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 22:12:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 22:12:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:12:31 symfony [info] {sfWebResponse} Send content (10776 o)
+Sep 14 22:12:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 22:12:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:12:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:12:41 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 22:12:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:12:41 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (sdfsdf, 2022-09-14, a85ad97316b229fdf49a88d04ce40e800c7cbc6e.jpg)
+Sep 14 22:12:41 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Sep 14 22:12:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 22:12:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:13:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 22:13:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:13:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:13:19 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 22:13:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:13:19 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (sdfsdf, 2022-09-14, e9697538dff2fed7c85da16ca44e1623879e838f.jpg)
+Sep 14 22:13:19 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/edit/id/"
+Sep 14 22:13:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 22:13:19 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/edit/id/"
+Sep 14 22:13:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:13:19 symfony [info] {sfWebResponse} Send content (130 o)
+Sep 14 22:13:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/edit/id/ with parameters array (  'module' => 'archivos',  'action' => 'edit',  'id' => '',)
+Sep 14 22:13:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:13:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:13:19 symfony [info] {archivosActions} Call "archivosActions->executeEdit()"
+Sep 14 22:13:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:13:20 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.id = ?) LIMIT 1 - ()
+Sep 14 22:13:20 symfony [err] {sfError404Exception} Object archivos does not exist ().
+Sep 14 22:13:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 14 22:13:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:14:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 22:14:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:14:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:14:51 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 22:14:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:14:52 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 22:14:52 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 22:14:52 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 22:14:52 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 22:14:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 22:14:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:14:52 symfony [info] {sfWebResponse} Send content (11793 o)
+Sep 14 22:19:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 22:19:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:19:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:19:43 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 22:19:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:19:43 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (789798797, 2022-09-14, 76fcfe5f1f2a33b52ec5e363752ebd9eb9ecb95c.jpg)
+Sep 14 22:19:43 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 22:19:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 22:19:43 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 22:19:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:19:43 symfony [info] {sfWebResponse} Send content (130 o)
+Sep 14 22:19:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/ with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '',)
+Sep 14 22:19:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:19:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:19:44 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 22:36:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 22:36:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:36:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:36:39 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 22:36:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:36:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 22:36:40 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 22:36:40 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 22:36:40 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 22:36:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 22:36:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:36:40 symfony [info] {sfWebResponse} Send content (12813 o)
+Sep 14 22:36:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 22:36:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:36:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:36:53 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 22:36:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:36:53 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (lol7, 2022-09-14, 4a9fbd877fdb824b33a706d5818a8d384016c439.png)
+Sep 14 22:36:53 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 22:36:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 22:36:53 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 22:36:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:36:53 symfony [info] {sfWebResponse} Send content (130 o)
+Sep 14 22:36:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/ with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '',)
+Sep 14 22:36:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:36:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:36:54 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 22:40:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 22:40:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:40:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:40:25 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 22:40:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:40:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 22:40:25 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 22:40:25 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 22:40:25 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 22:40:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 22:40:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:40:25 symfony [info] {sfWebResponse} Send content (13828 o)
+Sep 14 22:41:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 22:41:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:41:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:41:35 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 22:41:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 22:41:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (89787987987, 2022-09-14, 5f5fd234d951ee4d5538587f622ed991ae94e410.png)
+Sep 14 22:41:35 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 22:41:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 22:41:35 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 22:41:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 22:41:35 symfony [info] {sfWebResponse} Send content (130 o)
+Sep 14 22:41:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/ with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '',)
+Sep 14 22:41:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 22:41:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 22:41:35 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 22:41:36 symfony [err] {InvalidArgumentException} Missing required client configuration options: 
+
+region: (string)
+
+  A "region" configuration value is required for the "s3" service
+  (e.g., "us-west-2"). A list of available public regions and endpoints can be
+  found at http://docs.aws.amazon.com/general/latest/gr/rande.html.
+
+version: (string)
+
+  A "version" configuration value is required. Specifying a version constraint
+  ensures that your code will not be affected by a breaking change made to the
+  service. For example, when using Amazon S3, you can lock your API version to
+  "2006-03-01".
+  
+  Your build of the SDK has the following version(s) of "s3": * "2006-03-01"
+  
+  You may provide "latest" to the "version" configuration value to utilize the
+  most recent available API version that your client's API provider can find.
+  Note: Using 'latest' in a production application is not recommended.
+  
+  A list of available API versions can be found on each client's API documentation
+  page: http://docs.aws.amazon.com/aws-sdk-php/v3/api/index.html. If you are
+  unable to load a specific API version, then you may need to update your copy of
+  the SDK.
+Sep 14 22:41:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 22:41:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:12:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 23:12:12 symfony [info] {myUser} Automatic user logout due to timeout
+Sep 14 23:12:12 symfony [info] {myUser} User is not authenticated
+Sep 14 23:12:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:12:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:12:12 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 23:12:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:12:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 23:12:12 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 23:12:12 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:12:12 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:12:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:12:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:12:12 symfony [info] {sfWebResponse} Send content (14850 o)
+Sep 14 23:12:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:12:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:12:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:12:34 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:12:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:12:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (asdfasd fa, 2022-09-14, d73bded3ba3a3db6448a0640c0d4f84c57c336c7.mp4)
+Sep 14 23:12:34 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 23:12:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 23:12:34 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 23:12:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:12:34 symfony [info] {sfWebResponse} Send content (130 o)
+Sep 14 23:12:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/ with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '',)
+Sep 14 23:12:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:12:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:12:35 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:12:35 symfony [err] {InvalidArgumentException} Missing required client configuration options: 
+
+region: (string)
+
+  A "region" configuration value is required for the "s3" service
+  (e.g., "us-west-2"). A list of available public regions and endpoints can be
+  found at http://docs.aws.amazon.com/general/latest/gr/rande.html.
+
+version: (string)
+
+  A "version" configuration value is required. Specifying a version constraint
+  ensures that your code will not be affected by a breaking change made to the
+  service. For example, when using Amazon S3, you can lock your API version to
+  "2006-03-01".
+  
+  Your build of the SDK has the following version(s) of "s3": * "2006-03-01"
+  
+  You may provide "latest" to the "version" configuration value to utilize the
+  most recent available API version that your client's API provider can find.
+  Note: Using 'latest' in a production application is not recommended.
+  
+  A list of available API versions can be found on each client's API documentation
+  page: http://docs.aws.amazon.com/aws-sdk-php/v3/api/index.html. If you are
+  unable to load a specific API version, then you may need to update your copy of
+  the SDK.
+Sep 14 23:12:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 23:12:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:13:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 23:13:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:13:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:13:59 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 23:13:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:13:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 23:13:59 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 23:13:59 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:13:59 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:13:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:13:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:13:59 symfony [info] {sfWebResponse} Send content (15783 o)
+Sep 14 23:14:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/ with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '',)
+Sep 14 23:14:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:14:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:14:02 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:14:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:14:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.id = ?) LIMIT 1 - ()
+Sep 14 23:14:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 23:14:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:14:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:14:06 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 23:14:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:14:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 23:14:06 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 23:14:06 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:14:06 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:14:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:14:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:14:06 symfony [info] {sfWebResponse} Send content (15783 o)
+Sep 14 23:14:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:14:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:14:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:14:21 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:14:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:14:22 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 1, 2022-09-14, 8fb95ece7c374beba1256028d2f602df69f4762b.jpg)
+Sep 14 23:14:22 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 23:14:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 23:14:22 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/"
+Sep 14 23:14:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:14:22 symfony [info] {sfWebResponse} Send content (130 o)
+Sep 14 23:14:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/ with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '',)
+Sep 14 23:14:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:14:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:14:22 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:14:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:14:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.id = ?) LIMIT 1 - ()
+Sep 14 23:16:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 23:16:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:16:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:16:31 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 23:16:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:16:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 23:16:31 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 23:16:31 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:16:31 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:16:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:16:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:16:31 symfony [info] {sfWebResponse} Send content (16801 o)
+Sep 14 23:16:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:16:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:16:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:16:35 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:16:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:16:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 1, 2022-09-14, b12a1a0cf3d26d6670c70d340c3fc106d8b291bb.jpg)
+Sep 14 23:17:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:17:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:17:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:17:14 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:17:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:17:14 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 1, 2022-09-14, 891c6b296458b55b5e437e51928ca8635128cbd2.jpg)
+Sep 14 23:17:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:17:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:17:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:17:51 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:17:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:17:51 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 1, 2022-09-14, d4de82e00f80e4961e9853cc1eca678f339a4ed1.jpg)
+Sep 14 23:18:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:18:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:18:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:18:15 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:18:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:18:15 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 1, 2022-09-14, 9bb812e7864798d872e05a7b872a7c37f8909ba6.jpg)
+Sep 14 23:19:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:19:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:19:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:19:28 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:19:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:19:28 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 1, 2022-09-14, 1e5f6167f83111e6bad965e3dd45308d8f3843dd.jpg)
+Sep 14 23:22:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:22:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:22:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:22:13 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:22:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:22:13 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 1, 2022-09-14, 023c71a1ba1e4cafe384541ffabcf971aaa66b9e.jpg)
+Sep 14 23:23:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:23:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:23:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:23:00 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:23:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:23:01 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 1, 2022-09-14, 3fb05d60aefdcd1f71008ae00b5765f7f725012d.jpg)
+Sep 14 23:23:01 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/edit/id/"
+Sep 14 23:23:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 23:23:01 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/edit/id/"
+Sep 14 23:23:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:23:01 symfony [info] {sfWebResponse} Send content (130 o)
+Sep 14 23:23:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/edit/id/ with parameters array (  'module' => 'archivos',  'action' => 'edit',  'id' => '',)
+Sep 14 23:23:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:23:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:23:01 symfony [info] {archivosActions} Call "archivosActions->executeEdit()"
+Sep 14 23:23:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:23:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.id = ?) LIMIT 1 - ()
+Sep 14 23:23:01 symfony [err] {sfError404Exception} Object archivos does not exist ().
+Sep 14 23:23:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 14 23:23:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:26:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 23:26:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:26:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:26:36 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 23:26:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:26:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 23:26:36 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 23:26:36 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:26:36 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:26:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:26:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:26:36 symfony [info] {sfWebResponse} Send content (23937 o)
+Sep 14 23:27:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:27:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:27:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:27:57 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:27:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:27:58 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 2, 2022-09-14, acc5413a6a5e6c357a405a2a5c8e7797b425c838.jpg)
+Sep 14 23:29:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:29:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:29:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:29:20 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:29:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:29:20 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 2, 2022-09-14, 94dbd0e7f352ea63f058bb4550ee207c95efd22b.jpg)
+Sep 14 23:29:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:29:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:29:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:29:36 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:29:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:29:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 2, 2022-09-14, cc9ed814b7e2d18c3bc7c7a221c576cbd97f0ad7.jpg)
+Sep 14 23:30:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:30:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:30:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:30:20 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:30:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:30:21 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 2, 2022-09-14, 3e9a7b6701aee592b12d3f598af1d442e9ca27c6.jpg)
+Sep 14 23:31:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 23:31:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:31:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:31:10 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 23:31:10 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:31:10 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 23:31:10 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 23:31:11 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:31:11 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:31:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:31:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:31:11 symfony [info] {sfWebResponse} Send content (28017 o)
+Sep 14 23:31:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:31:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:31:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:31:22 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:31:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:31:22 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 3, 2022-09-14, 272585c7f87fa35bcfaacbf8a36a568e9b1f6e0f.png)
+Sep 14 23:31:22 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/272585c7f87fa35bcfaacbf8a36a568e9b1f6e0f.png"
+Sep 14 23:31:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 23:31:22 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/272585c7f87fa35bcfaacbf8a36a568e9b1f6e0f.png"
+Sep 14 23:31:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:31:22 symfony [info] {sfWebResponse} Send content (174 o)
+Sep 14 23:31:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/272585c7f87fa35bcfaacbf8a36a568e9b1f6e0f.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '272585c7f87fa35bcfaacbf8a36a568e9b1f6e0f.png',)
+Sep 14 23:31:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:31:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:31:22 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:31:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:31:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (272585c7f87fa35bcfaacbf8a36a568e9b1f6e0f.png)
+Sep 14 23:31:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:31:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:31:24 symfony [info] {sfWebResponse} Send content (12 o)
+Sep 14 23:32:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 23:32:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:32:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:32:56 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 23:32:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:32:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 23:32:56 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 23:32:56 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:32:56 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:32:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:32:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:32:56 symfony [info] {sfWebResponse} Send content (29037 o)
+Sep 14 23:33:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:33:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:33:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:33:10 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:33:10 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:33:10 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 4, 2022-09-14, eedae9ccdcfc696a5ec9ab7c4e046221930d5f0c.png)
+Sep 14 23:33:10 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/eedae9ccdcfc696a5ec9ab7c4e046221930d5f0c.png"
+Sep 14 23:33:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 23:33:10 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/eedae9ccdcfc696a5ec9ab7c4e046221930d5f0c.png"
+Sep 14 23:33:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:33:10 symfony [info] {sfWebResponse} Send content (174 o)
+Sep 14 23:33:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/eedae9ccdcfc696a5ec9ab7c4e046221930d5f0c.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => 'eedae9ccdcfc696a5ec9ab7c4e046221930d5f0c.png',)
+Sep 14 23:33:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:33:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:33:11 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:33:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:33:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (eedae9ccdcfc696a5ec9ab7c4e046221930d5f0c.png)
+Sep 14 23:33:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:33:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:33:13 symfony [info] {sfWebResponse} Send content (5 o)
+Sep 14 23:34:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 14 23:34:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:34:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:34:59 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 14 23:34:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:34:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 14 23:34:59 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 14 23:34:59 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:34:59 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 14 23:34:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 14 23:34:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:34:59 symfony [info] {sfWebResponse} Send content (30057 o)
+Sep 14 23:35:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 14 23:35:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:35:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:35:05 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 14 23:35:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:35:05 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 5, 2022-09-14, 611144f857bf570e05ac64635718324ebd0ba2d0.png)
+Sep 14 23:35:05 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png"
+Sep 14 23:35:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 14 23:35:05 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png"
+Sep 14 23:35:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:35:05 symfony [info] {sfWebResponse} Send content (174 o)
+Sep 14 23:35:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '611144f857bf570e05ac64635718324ebd0ba2d0.png',)
+Sep 14 23:35:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:35:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:35:06 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:35:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:35:07 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (611144f857bf570e05ac64635718324ebd0ba2d0.png)
+Sep 14 23:35:08 symfony [err] {sfRenderException} The template "loadSuccess.php" does not exist or is unreadable in "".
+Sep 14 23:35:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 14 23:35:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 14 23:35:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '611144f857bf570e05ac64635718324ebd0ba2d0.png',)
+Sep 14 23:35:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:35:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:35:34 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:35:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:35:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (611144f857bf570e05ac64635718324ebd0ba2d0.png)
+Sep 14 23:36:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '611144f857bf570e05ac64635718324ebd0ba2d0.png',)
+Sep 14 23:37:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '611144f857bf570e05ac64635718324ebd0ba2d0.png',)
+Sep 14 23:37:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:37:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:37:12 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:37:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:37:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (611144f857bf570e05ac64635718324ebd0ba2d0.png)
+Sep 14 23:37:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '611144f857bf570e05ac64635718324ebd0ba2d0.png',)
+Sep 14 23:37:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:37:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:37:48 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:37:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:37:49 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (611144f857bf570e05ac64635718324ebd0ba2d0.png)
+Sep 14 23:42:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '611144f857bf570e05ac64635718324ebd0ba2d0.png',)
+Sep 14 23:42:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:42:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:42:18 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:42:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:42:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (611144f857bf570e05ac64635718324ebd0ba2d0.png)
+Sep 14 23:42:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '611144f857bf570e05ac64635718324ebd0ba2d0.png',)
+Sep 14 23:42:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:42:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:42:47 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:42:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:42:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (611144f857bf570e05ac64635718324ebd0ba2d0.png)
+Sep 14 23:58:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '611144f857bf570e05ac64635718324ebd0ba2d0.png',)
+Sep 14 23:58:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 14 23:58:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 14 23:58:11 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 14 23:58:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 14 23:58:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (611144f857bf570e05ac64635718324ebd0ba2d0.png)
+Sep 15 00:06:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/611144f857bf570e05ac64635718324ebd0ba2d0.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '611144f857bf570e05ac64635718324ebd0ba2d0.png',)
+Sep 15 00:06:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:06:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:06:11 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 15 00:06:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:06:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (611144f857bf570e05ac64635718324ebd0ba2d0.png)
+Sep 15 00:06:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 15 00:06:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:06:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:06:51 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 15 00:06:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:06:51 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 15 00:06:51 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 15 00:06:52 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:06:52 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:06:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:06:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:06:52 symfony [info] {sfWebResponse} Send content (31077 o)
+Sep 15 00:07:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 15 00:07:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:07:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:07:30 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 15 00:07:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:07:30 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (ahora 5, 2022-09-14, 4d3896e8699e0e060df57f7aa993c006195b9b12.jpg)
+Sep 15 00:07:30 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/4d3896e8699e0e060df57f7aa993c006195b9b12.jpg"
+Sep 15 00:07:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 15 00:07:30 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/4d3896e8699e0e060df57f7aa993c006195b9b12.jpg"
+Sep 15 00:07:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:07:30 symfony [info] {sfWebResponse} Send content (174 o)
+Sep 15 00:07:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/4d3896e8699e0e060df57f7aa993c006195b9b12.jpg with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '4d3896e8699e0e060df57f7aa993c006195b9b12.jpg',)
+Sep 15 00:07:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:07:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:07:31 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 15 00:07:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:07:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (4d3896e8699e0e060df57f7aa993c006195b9b12.jpg)
+Sep 15 00:07:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:07:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:07:33 symfony [info] {sfWebResponse} Send content (4 o)
+Sep 15 00:08:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 15 00:08:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:08:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:08:49 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 15 00:08:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:08:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 15 00:08:50 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 15 00:08:50 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:08:50 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:08:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:08:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:08:50 symfony [info] {sfWebResponse} Send content (32097 o)
+Sep 15 00:09:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/create with parameters array (  'module' => 'archivos',  'action' => 'create',)
+Sep 15 00:09:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:09:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:09:07 symfony [info] {archivosActions} Call "archivosActions->executeCreate()"
+Sep 15 00:09:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:09:07 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO archivos (nombre, fecha, archivo) VALUES (?, ?, ?) - (arriba, 2022-09-15, 08224dcd73af299436b3ff050d8faf6f38a75465.png)
+Sep 15 00:09:07 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos/load/id/08224dcd73af299436b3ff050d8faf6f38a75465.png"
+Sep 15 00:09:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 15 00:09:07 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos/load/id/08224dcd73af299436b3ff050d8faf6f38a75465.png"
+Sep 15 00:09:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:09:07 symfony [info] {sfWebResponse} Send content (174 o)
+Sep 15 00:09:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/08224dcd73af299436b3ff050d8faf6f38a75465.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '08224dcd73af299436b3ff050d8faf6f38a75465.png',)
+Sep 15 00:09:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:09:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:09:07 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 15 00:09:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:09:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (08224dcd73af299436b3ff050d8faf6f38a75465.png)
+Sep 15 00:09:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:09:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:09:09 symfony [info] {sfWebResponse} Send content (4 o)
+Sep 15 00:20:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 15 00:20:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:20:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:20:23 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 15 00:20:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:20:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 15 00:20:23 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 15 00:20:23 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:20:23 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:20:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:20:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:20:23 symfony [info] {sfWebResponse} Send content (29130 o)
+Sep 15 00:22:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 15 00:22:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:22:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:22:36 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 15 00:22:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:22:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 15 00:22:37 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 15 00:22:37 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:22:37 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:22:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:22:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:22:37 symfony [info] {sfWebResponse} Send content (29217 o)
+Sep 15 00:24:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 15 00:24:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:24:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:24:32 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 15 00:24:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:24:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 15 00:24:33 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 15 00:24:33 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:24:33 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send content (33579 o)
+Sep 15 00:24:33 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo.png" (/).
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:33 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/sms.png" (/).
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:33 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/create-quest.png" (/).
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:33 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/user.png" (/).
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:33 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/notification.png" (/).
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:33 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/dashboard.png" (/).
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:34 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/one-on-one.png" (/).
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:34 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/log-out.png" (/).
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:34 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/settings.png" (/).
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:34 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/give-kudos.png" (/).
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:34 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/manage-quests.png" (/).
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:34 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/feedback.png" (/).
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:34 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/leaderboards.png" (/).
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 15 00:24:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:24:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:24:49 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 15 00:24:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:24:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 15 00:24:49 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 15 00:24:49 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:24:49 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:24:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:24:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:49 symfony [info] {sfWebResponse} Send content (33579 o)
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/sms.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/notification.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/create-quest.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/dashboard.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/user.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/one-on-one.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/log-out.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/give-kudos.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/leaderboards.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/settings.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/feedback.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:24:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/manage-quests.png" (/).
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /archivos/load/id/08224dcd73af299436b3ff050d8faf6f38a75465.png with parameters array (  'module' => 'archivos',  'action' => 'load',  'id' => '08224dcd73af299436b3ff050d8faf6f38a75465.png',)
+Sep 15 00:25:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:25:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:25:05 symfony [info] {archivosActions} Call "archivosActions->executeLoad()"
+Sep 15 00:25:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:25:06 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a WHERE (a.archivo = ?) LIMIT 1 - (08224dcd73af299436b3ff050d8faf6f38a75465.png)
+Sep 15 00:25:08 symfony [info] {sfFrontWebController} Redirect to "http://app.localhost.com/frontend_dev.php/archivos"
+Sep 15 00:25:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 15 00:25:08 symfony [info] {sfWebResponse} Send header "Location: http://app.localhost.com/frontend_dev.php/archivos"
+Sep 15 00:25:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:08 symfony [info] {sfWebResponse} Send content (121 o)
+Sep 15 00:25:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 15 00:25:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:25:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:25:08 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 15 00:25:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:25:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 15 00:25:09 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 15 00:25:09 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:25:09 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send content (33579 o)
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/user.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/notification.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/create-quest.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/dashboard.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/sms.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/leaderboards.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/log-out.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/one-on-one.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/feedback.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/settings.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/manage-quests.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:25:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/give-kudos.png" (/).
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 15 00:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:26:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 15 00:26:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:26:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:26:43 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 15 00:26:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:26:43 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 15 00:26:43 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 15 00:26:43 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:26:43 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:26:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:26:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:26:43 symfony [info] {sfWebResponse} Send content (30081 o)
+Sep 15 00:27:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivos with parameters array (  'module' => 'archivos',  'action' => 'index',)
+Sep 15 00:27:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 15 00:27:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 15 00:27:22 symfony [info] {archivosActions} Call "archivosActions->executeIndex()"
+Sep 15 00:27:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 15 00:27:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.fecha AS a__fecha, a.nombre AS a__nombre, a.archivo AS a__archivo FROM archivos a - ()
+Sep 15 00:27:22 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/modules/archivos/templates/indexSuccess.php"
+Sep 15 00:27:23 symfony [info] {sfPHPView} Decorate content with "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:27:23 symfony [info] {sfPHPView} Render "/var/www/apps/app/apps/frontend/templates/layout.php"
+Sep 15 00:27:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 15 00:27:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 15 00:27:23 symfony [info] {sfWebResponse} Send content (29841 o)

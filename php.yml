@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  app:
+    image: 'gsoftcolombia/php5'
+    container_name: docker-php
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/apps
+      - ./vhosts:/etc/apache2/sites-enabled/
+    networks:
+      - mysql57
+
+networks:
+  mysql57:
+    external: true
